@@ -1,63 +1,43 @@
-# Project Title: 
-**Enhancing Customer Experience with API and Export Usage Analytics**
+# Orbis Usage Dashboards with Power Automate
 
-# Project Objective:
+**Description:**
 
-To leverage advanced data analytics and machine learning techniques to gain deep insights into customer usage patterns of both API and report/list export options, enabling proactive issue resolution, personalized recommendations, and improved overall customer satisfaction.
+Developed cloud-based data pipelines to automate the refresh of Orbis API and export option usage data for Power BI dashboards. This project leveraged Power Automate to orchestrate data extraction from SQL Server, ensuring up-to-date insights into platform utilization and user behavior. The dashboards provide critical business intelligence, enabling data-driven decision-making regarding Orbis platform usage.
 
-# Technical Approach:
+**Key Technologies:**
 
-**1.Data Collection and Preparation:**
+* Python (Orbis API interaction)
+* SQL Server
+* Power BI
+* Power Automate
+* Cloud Data Warehouse: **Azure SQL Database (or similar if applicable)**
+* API Management: **Azure API Management (or similar if applicable)**
+* Version Control: **Git**
 
-* **Data Extraction:** Utilized SQL queries to extract relevant data from various databases, including API logs, export logs, user activity logs, and product usage metrics.
-* **Data Cleaning:** Employed Python libraries like Pandas and NumPy to clean and preprocess the data, handling missing values, outliers, and inconsistencies.
-* **Feature Engineering:** Created meaningful features from raw data, such as:
-  * API call frequency and response time
-  * Error rates for API and export functions
-  * Export frequency, file size, and format usage
-  * User demographics and time-based features
+**Project Overview:**
 
-**2.Exploratory Data Analysis (EDA):**
+* **Data Extraction:** Developed Python scripts to extract Orbis API and export option usage data from internal logs and load it into SQL Server.
+* **Data Transformation and Loading:** Implemented SQL queries to transform and load the data into appropriate tables within SQL Server, preparing it for Power BI consumption.
+* **Power BI Dashboard Creation:** Designed and developed interactive Power BI dashboards to visualize key metrics related to Orbis API and export option usage, including usage trends, user activity, and performance indicators.
+* **Power Automate Orchestration:** Created Power Automate flows to automate the data refresh process, scheduling regular data extraction and updates to the Power BI datasets.
+* **Cloud Data Warehouse Integration (If Applicable):** If utilizing Azure SQL Database or similar, ensured seamless data transfer and synchronization between SQL Server and the cloud data warehouse.
+* **API Management Integration (If Applicable):** If utilizing Azure API Management or similar, ensured proper API endpoint management and secure access to data.
+* **Monitoring and Error Handling:** Implemented monitoring and error handling within Power Automate flows to ensure data integrity and timely notifications in case of failures.
 
-* **Data Visualization:** Leveraged Python libraries like Matplotlib and Seaborn to visualize key metrics and trends, including API call volume, response time distribution, error rate analysis, export volume, file size distribution, and export format usage.
-* **Statistical Analysis:** Employed statistical techniques to identify correlations, patterns, and anomalies in the data.
-  
-**3.Predictive Maintenance:**
+**Key Achievements:**
 
-* **Model Development:** Trained machine learning models, such as Random Forest and XGBoost, to predict potential API performance issues, export-related problems, or system bottlenecks based on historical usage data and system metrics.
-* **Model Deployment:** Deployed the trained models into a production environment to enable real-time monitoring and alerting.
+* **Automated Data Refresh:** Eliminated manual data updates for Power BI dashboards, ensuring data accuracy and timeliness.
+* **Improved Data Accuracy:** Enhanced data accuracy by automating data extraction and transformation processes, reducing the risk of human error.
+* **Enhanced Dashboard Performance:** Optimized data pipelines and queries to ensure efficient data retrieval and dashboard performance.
+* **Increased Efficiency:** Reduced the time required for data updates and dashboard maintenance, freeing up resources for other tasks.
+* **Improved Decision-Making:** Provided stakeholders with up-to-date and reliable insights into Orbis platform usage, enabling data-driven decision-making.
+* **Scalable Solution:** Developed a scalable and maintainable data pipeline that can accommodate future growth in data volume and complexity.
+* **Cloud Integration:** Integrated cloud services like Azure SQL Database and Power Automate, showcasing expertise in cloud-based data solutions.
 
-**4.Personalized Recommendations:**
+**Project Context:**
 
-* **Recommendation System:** Implemented a recommendation system using techniques like collaborative filtering and content-based filtering to suggest relevant API endpoints, export formats, customization options, or best practices to customers based on their usage behavior and preferences.
+This project addressed the need for automated and reliable data updates for Orbis platform usage dashboards. By automating data extraction, transformation, and refresh processes, this project improved the efficiency and accuracy of data analysis, enabling better decision-making regarding Orbis platform utilization.
 
-**5.Anomaly Detection:**
+**Contact:**
 
-* **Anomaly Detection Algorithms:** Applied anomaly detection algorithms, such as Isolation Forest and One-Class SVM, to identify unusual API usage patterns or export behaviors that may indicate security threats, fraudulent activity, or system errors.
-
-**6.Customer Segmentation:**
-
-* **Clustering Algorithms:** Utilized clustering algorithms like K-Means and Hierarchical Clustering to segment customers based on their API and export usage patterns, demographics, and other relevant factors.
-  
-**7.Dashboard Development:**
-
-* **Dashboard Creation:** Developed interactive dashboards using Power BI to visualize key metrics, trends, and insights from both API and export usage, enabling easy monitoring and decision-making.
-
-# Impact and Benefits:
-
-* **Improved System Reliability:** Proactive identification and resolution of potential API and export-related issues.
-* **Enhanced Customer Experience:** Personalized recommendations and optimized API and export options.
-* **Increased Customer Engagement:** Tailored product suggestions and support.
-* **Enhanced Security:** Early detection of security threats and fraudulent activity.
-* **Data-Driven Decision Making:** Informed business decisions based on actionable insights from both API and export usage.
-
-# Technical Skills Utilized:
-
-* **Programming Languages:** Python
-* **Data Engineering:** Data extraction, cleaning, preprocessing, and feature engineering
-* **Machine Learning:** Predictive modeling, recommendation systems, anomaly detection, and clustering
-* **Data Visualization:** Creating insightful visualizations using libraries like Matplotlib and Seaborn
-* **Business Intelligence:** Developing interactive dashboards using tools like Power BI
-* **SQL:** Data extraction and query optimization
-
-By effectively leveraging these technical skills and data-driven approaches, this project has significantly contributed to enhancing customer experience and optimizing the overall usage of API and export functionalities.
+* LinkedIn: [My LinkedIn Profile URL](https://www.linkedin.com/in/kamalakarpeta/)
